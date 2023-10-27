@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1> Mi primer html </h1>
+    <h2> Es cool </h2>
+    <h3> Suavee </h3>
+    <a href="#section" id="menu">go to section</a>
+
+    <p> Hola! Mi nombre es Nehuen y me gusta la papa frita </p>
+    <p> Soy un p </p>
+    <a href="www.lanada.com">Soy un enlace a la nada</a>
+    <img src="./img/papas.jpg" alt="papas fritas">
+    <video src="../../Paso-a-Paso-1.mp4" controls="true" width="450px">Paso a paso</video>
+    <audio src="./perro.wav" controls="true" width="450px">perrooooooooooooooooooooooooo!</audio>
+
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/1mj4qHJdqcw" title="bossa brazil 🌴 summer jazzy lofi mix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <form id="miFormulario">
+        <label for="dato">Ingresa un dato:</label>
+        <input type="text" id="dato" name="dato" placeholder="Escribe algo">
+      
+        <button type="submit">Enviar</button>
+      </form>
+      
+      <script>
+        document.getElementById('miFormulario').addEventListener('submit', function(event) {
+          event.preventDefault();  // Evita que el formulario se envíe de forma convencional
+      
+          // Obtiene el valor del campo de entrada
+          const dato = document.getElementById('dato').value;
+      
+          // Muestra el dato en la consola
+          console.log('Dato enviado:', dato);
+        });
+      </script>
+
+      <section id="section">
+soy section <a href="#menu">go to menu</a>
+<a href="./img/papas.jpg">papita</a>
+      </section>
+      
+
+    
+</body>
+</html>

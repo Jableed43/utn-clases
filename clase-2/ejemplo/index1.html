@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/ef88cf4afb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Montserrat+Alternates:wght@200;400;600&family=Pixelify+Sans&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="encabezados">
+      <h1 class="test hovered"> Mi primer html <i class="fa-solid fa-hat-cowboy"></i> </h1>
+      <h2> Es cool <i class="fa-solid hovered fa-fish fa-flip-vertical" style="color: #393384;"></i></i> </h2>
+      <h3> Suavee  </h3>
+    </div>
+
+    <div class="enlaces">
+      <a href="#section" id="menu">go to section</a>
+      <p> Hola! Mi nombre es Nehuen y me gusta la papa frita </p>
+    </div>
+
+    <section class="img-section">
+
+    <div class="img-container">
+      <h1 class="img-title">Vivan las papitas</h1>
+      <img src="./img/papas.jpg" alt="papas fritas">
+    </div>
+
+    </section>
+
+    <div class="audio-video">
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/1mj4qHJdqcw" title="bossa brazil 🌴 summer jazzy lofi mix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      <audio src="./perro.wav" controls="true" width="450px">perro!</audio>
+    </div>
+
+    <div class="form-container">
+      <form id="miFormulario">
+        <label for="dato">Ingresa un dato:</label>
+        <input type="text" id="dato" name="dato" placeholder="Escribe algo">
+      
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+
+    <ul class="lista">
+      <li>Rojo <i class="fa-solid-fa-code-merge"></i></li>
+      <li class="test">Verde</li>
+      <li>Azul</li>
+      <li>Amarillo</li>
+      <li class="naranja" id="rosa">Naranja</li>
+      <li>Violeta</li>
+    </ul>
+
+    <script>
+        document.getElementById('miFormulario').addEventListener('submit', function(event) {
+          event.preventDefault();  // Evita que el formulario se envíe de forma convencional
+      
+          // Obtiene el valor del campo de entrada
+          const dato = document.getElementById('dato').value;
+      
+          // Muestra el dato en la consola
+          console.log('Dato enviado:', dato);
+        });
+      </script>
+
+      <section id="section">
+soy section <a href="#menu">go to menu</a>
+<a href="./img/papas.jpg">papita</a>
+      </section>
+      
+<p class="texto">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt quaerat veritatis, ipsum voluptatum velit hic, tempore id accusamus, obcaecati fugit. <span> Odio </span> veniam animi obcaecati doloribus? Doloribus nisi maiores sapiente!
+  Dignissimos provident commodi, impedit sit blanditiis repudiandae, a debitis nam aspernatur cum vero libero necessitatibus expedita doloremque ullam unde vitae reprehenderit. Pariatur laudantium iusto praesentium nemo non doloremque facere fuga.
+</p>
+
+<p class="texto" id="distinto"> 
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt quaerat veritatis, ipsum voluptatum velit hic, tempore id accusamus, obcaecati fugit. Odio veniam animi obcaecati doloribus? Doloribus nisi maiores sapiente!
+  Dignissimos provident commodi, impedit sit blanditiis repudiandae, a debitis nam aspernatur cum vero libero necessitatibus expedita doloremque ullam unde vitae reprehenderit. Pariatur laudantium iusto praesentium nemo non doloremque facere fuga.
+</p>
+
+<p class="texto">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt quaerat veritatis, ipsum voluptatum velit hic, tempore id accusamus, obcaecati fugit. Odio veniam animi obcaecati doloribus? Doloribus nisi maiores sapiente!
+  Dignissimos provident commodi, impedit sit blanditiis repudiandae, a debitis nam aspernatur cum vero libero necessitatibus expedita doloremque ullam unde vitae reprehenderit. Pariatur laudantium iusto praesentium nemo non doloremque facere fuga.
+</p>
+
+<div class="relleno">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quis dicta facilis officia rem qui modi dolorem vel aliquid, iste pariatur debitis atque laudantium veniam repellendus consectetur beatae animi nemo!
+  Quaerat itaque, expedita repellendus earum debitis optio pariatur et sequi quos accusantium qui ipsam deserunt voluptates ipsum voluptate eius? Animi officiis illum beatae velit nobis tempore, tempora ad nulla ratione.
+  Mollitia voluptatibus amet quae expedita! Repellendus et quia recusandae voluptates ut eveniet modi voluptatum a expedita nostrum animi molestias ipsa reiciendis debitis quisquam, obcaecati ipsum excepturi non aperiam, exercitationem perferendis.
+  Facilis, modi nisi fuga eaque officia molestiae quis perferendis incidunt rerum eos porro unde a ut quae nesciunt, adipisci necessitatibus consequatur magni eveniet dolorem! Sed quam eveniet aut perferendis commodi.
+</div>
+    
+</body>
+</html>

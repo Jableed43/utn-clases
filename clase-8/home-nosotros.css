@@ -1,0 +1,187 @@
+
+.nosotros main{
+    margin-top: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-nav, .dropdown-menu.show{
+    background-color: #6a9fe4;
+}
+
+.aerolinea{
+    width: 80px;
+} 
+
+a{
+    color: white !important;
+}
+
+h2{
+    color: #3a78c9 !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    margin-top: 15px !important;
+}
+
+h3{
+    font-style: italic;
+    font-size: 23px !important;
+}
+
+.seccion-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 70vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home .image-container img{
+    width: 100%;
+}
+
+.welcome-box{
+    width: 60%;
+}
+
+.testimonials{
+    width: 35%;
+}
+
+.testimonials-text{
+    background-color: #d2d0d0;
+    padding: 12px;
+    width: 75%;
+}
+
+.testimonials-text p{
+    text-align: center;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: #d2d0d0;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.history{
+    padding: 0 20px;
+}
+
+.staff{
+    padding: 0 20px;
+}
+
+.profile-container{
+    justify-content: space-between;
+    display: flex;
+}
+
+.img-profile-container{
+    width: 80%;
+}
+
+.img-profile-container img{
+    margin-top: 10px;
+    width: 100% !important;
+    border-radius: 100%;
+    box-shadow: 0px 0px 3px 3px #858383;
+}
+
+.profile-card{
+    width: 18%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #9e9a9a;
+    border-radius: 5px;
+    justify-content: center !important;
+
+}
+
+h2.name{
+    margin-bottom: 0;
+}
+
+h3.role{
+    font-size: 16px !important;
+    color: #3a78c9 !important;
+    font-weight: 400;
+}
+
+p.description{
+    text-align: center;
+    padding: 0 7px;
+}
+
+.nosotros div.staff{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 360px){
+    main{
+        margin-top: 0px;
+    }
+    .seccion-principal{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .welcome-box{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .testimonials{
+        width: 100%;
+    }
+
+    .title-testimonials{
+        text-align: center;
+    }
+
+    .seccion-principal{
+        align-items: stretch;
+    }
+
+    .image-container img{
+        height: auto;
+    }
+
+    .testimonials-text{
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 860px){
+    .seccion-principal{
+        align-items: center;
+        margin-top: 40px;
+    }
+    .image-container{
+        height: 205px;
+    }
+    .home .image-container img{
+        width: auto;
+    }
+    .welcome-box{
+        padding: 0 90px;
+    }
+    .testimonials-text{
+        width: 20%;
+    }
+}
+

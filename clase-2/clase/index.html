@@ -1,0 +1,67 @@
+<!-- ● Título de la página
+● Encabezado y subtítulo
+● Incluí tu nombre y una mini bio de presentación.
+● Incluí etiquetas semánticas -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javier</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a href="http://www.google.com">Ir a google</a>
+    <a href="#abajo">Ir abajo</a>
+    <h1 id="arriba">Bienvenidos</h1>
+    <h2>A mi web</h2>
+    <h3>javier lopez</h3>
+    <p class="bio">
+      Hola me llamo javier y aguanten las <span class="span">papas fritas</span>
+    </p>
+    <img src="./assets/img/papas.jpg" alt="Papas fritas" />
+    <video src="./assets/video/paso.mp4" controls>Paso a paso</video>
+
+    <audio controls src="./assets/audio/perro.wav">perro</audio>
+  </body>
+
+  <ol>
+    <li>Descargar visual studio code</li>
+    <li>Instalar visual studio code</li>
+    <li>Crear un elemento index.html</li>
+    <li>Abrirlo en navegador</li>
+  </ol>
+
+  <ul>
+    <li> Asistir a clases </li>
+    <li> Hacer las entregas de tp </li>
+    <li> Leer material de clase </li>
+  </ul>
+
+  <form action="/" method="post" enctype="application/x-www-form-urlencoded">
+
+    <label for="text">Nombre</label>
+    <input type="text" name="text">
+
+    <label for="date">Elija fecha</label>
+    <input type="date" name="date">
+
+    <input type="color" value="color">
+    <input type="file">
+
+    <label for="check">Elija</label>
+    <input type="checkbox" name="check">
+
+    <label for="pass">contraseña</label>
+    <input type="password" name="pass">
+
+    <input type="button" value="Enviar">
+    <input type="reset" value="resetear">
+
+  </form>
+
+  <p id="abajo" >Soy abajo</p>
+  <a href="#arriba">Ir arriba</a>
+
+</html>

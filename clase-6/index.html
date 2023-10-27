@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<section>
+    <form>
+    <h2>Formulario de registro</h2>
+
+    <label for="">Hoy es: </label>
+    <input type="text" value="12/10/2023" readonly>
+    
+    <label for="nombre">Nombre</label>
+    <input type="text" placeholder="Ingrese su nombre" required>
+
+    <label for="apellido">Apellido</label>
+    <input type="text" placeholder="Ingrese su apellido" required> 
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Ingrese su email" required>
+
+    <label for="nacimiento">Ingrese su fecha de nacimiento</label>
+    <input type="date" name="nacimiento" id="nacimiento" required>
+
+    <label for="edad">Edad</label>
+    <input max="120" type="number" name="edad" required>
+
+    <div class="radioContainer">
+        <h3>Seleccione su genero</h3>
+
+        <input type="radio" name="gender" id="masculino" value="masculino">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" name="gender" id="femenino" value="femenino">
+        <label for="femenino">Femenino</label>
+
+        <input type="radio" name="gender" id="prefiero" value="prefiero">
+        <label for="prefiero">Prefiero no decirlo</label>
+
+        <input type="radio" name="gender" id="no-binario" value="no-binario">
+        <label for="no-binario">No binario</label>
+    </div>
+
+    <h2>¿Que tipo de mascota tienes?</h2>
+    <input type="checkbox" id="mascota1" name="mascota1" value="Gato">
+    <label for="mascota1"> Tengo un gato</label>
+
+    <input type="checkbox" id="mascota2" name="mascota2" value="Perro">
+    <label for="mascota2"> Tengo un perro</label>
+
+    <input type="checkbox" id="mascota3" name="mascota3" value="Ambos">
+    <label for="mascota3"> Tengo ambos</label>
+
+    <input type="checkbox" id="mascota4" name="mascota4" value="none">
+    <label for="mascota4"> No tengo mascotas</label>
+
+    <label for="zodiaco">Elija su signo</label>
+    <select name="zodiaco" id="zodiaco">
+        <option value="aries">aries</option>
+        <option value="geminis">geminis</option>
+        <option value="libra">libra</option>
+        <option value="virgo">virgo</option>
+        <option value="escorpio">escorpio</option>
+        <option value="acuario">acuario</option>
+    </select>
+
+    <textarea name="texto" id="texto" cols="30" rows="10" maxlength="200" placeholder="ingrese su queja"></textarea>
+
+    <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </div>
+
+    </form>
+</section>
+</body>
+</html>
