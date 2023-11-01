@@ -1,11 +1,12 @@
 //global
-const casa = 'buenos aires'
+let casa = 'buenos aires'
 console.log('global:', casa)
 
 function hogar() {
 //local
-   const casa = 'santa fe'
+    let casa = 'haedo'
     console.log('local:',casa)
 }
 hogar()
 console.log("final:", casa)
+// 
