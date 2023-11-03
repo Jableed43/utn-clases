@@ -1,0 +1,21 @@
+nav{
+    border: 2px solid black;
+    background-image: url();
+}
+
+li{
+    margin: 0 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    height: 30px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
