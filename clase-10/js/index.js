@@ -4,7 +4,7 @@ console.log('global:', casa)
 
 function hogar() {
 //local
-    let casa = 'haedo'
+    casa = 'haedo'
     console.log('local:',casa)
 }
 hogar()
