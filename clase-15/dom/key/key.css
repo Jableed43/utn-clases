@@ -1,0 +1,9 @@
+#campoTexto.focus {
+    border: 2px solid green;
+    outline: none;
+  }
+
+  #campoTexto.blur {
+    border: 2px solid red;
+    outline: none;
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input y estilos</title>
+</head>
+<body>
+
+    <label for="textoInput">Texto:</label>
+    <input type="text" id="textoInput">
+
+    <br>
+    
+    <label for="colorInput">Color:</label>
+    <input type="color" id="colorInput">
+
+    <br>
+
+    <label for="fontSizeInput">Tamaño de fuente:</label>
+    <input type="number" id="fontSizeInput" min="1" value="16">
+
+    <br>
+
+    <label for="textDecorationSelect">Decoracion del texto:</label>
+    <select id="textDecorationSelect">
+        <option value="none">Ninguno</option>
+        <option value="underline">Subrayado</option>
+        <option value="overline">Sobrerayado</option>
+        <option value="line-through">Tachado</option>
+    </select>
+
+    <br>
+
+    <p id="resultado"></p>
+
+    <script src="./script.js"></script>
+</body>
+</html>

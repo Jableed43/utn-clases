@@ -4,9 +4,9 @@ let perro = document.getElementById('perro')
 let autos = document.getElementsByClassName('auto')
 perro.style.color = 'red'
 
-// for (var i = 0; i < autos.length; i++) {
-//     autos[i].style.color = 'blue';
-//  }
+for (var i = 0; i < autos.length; i++) {
+    autos[i].style.color = 'blue';
+ }
 
 //NodeList a un Array
 autos = Array.from(autos);
