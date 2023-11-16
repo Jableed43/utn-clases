@@ -16,10 +16,10 @@ function operacionAsincronica() {
   
   // Llamada a la función asincrónica con .then y .catch
   operacionAsincronica()
-    .then(response => {
+  .then(response => {
       console.log("response:", response);
     })
-    .catch(error => {
+  .catch(error => {
       console.error(error);
     });
   
