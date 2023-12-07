@@ -1,0 +1,17 @@
+.nav{
+    margin: 20px
+}
+
+.link{
+    padding: 10px;
+}
+
+.activo{
+    color: green;
+    padding: 10px;
+}
+
+.pending{
+    color: red;
+    padding: 10px;
+}
